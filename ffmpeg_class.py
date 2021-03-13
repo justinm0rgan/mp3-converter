@@ -4,9 +4,11 @@ import shutil
 
 class mp3_converter():
     def __init__(self, path, ext, dirName):
-        """Class that takes folder of one music files of one file type, creates
-        a new directory, and converts them to mp3
-        Input path, ext of """
+        """Class that takes folder of music files of one file type, 
+        converts them to mp3 and creates a new directory and moves them into it
+        Input path of files that you would like to convert
+        Extension of files you would like to convert i.e. WAV
+        Folder name of the new directory you would like to create"""
         self.path = path
         self.ext = ext
         self.dirName = dirName
