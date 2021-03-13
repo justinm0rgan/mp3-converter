@@ -44,16 +44,3 @@ class mp3_converter():
             if (filename.endswith(".mp3")):
                 source = os.path.join(self.path, filename)
                 shutil.move(source, mp3_directory)
-
-# TODO: Create mp3 object
-# conv = mp3_converter("/Users/justinwilliams/Music/Music/judas_knife/wetransfer-844020",
-#             ".wav", "mp3")
-
-# TODO: Apply lower_underscore method to mp3 object
-# conv.lower_underscore()
-
-# TODO: Apply mp3 method to convert mp3 object
-# conv.mp3()
-
-# TODO: 
-# conv.make_dir()
